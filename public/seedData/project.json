@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Apollo",
+        "description": "A space exploration project.",
+        "startDate": "2023-01-01T00:00:00Z",
+        "deadline": "2023-12-31T00:00:00Z"
+    },
+    {
+        "id": 2,
+        "title": "Beacon",
+        "description": "Developing advanced navigation systems.",
+        "startDate": "2023-02-01T00:00:00Z",
+        "deadline": "2023-10-15T00:00:00Z"
+    },
+    {
+        "id": 3,
+        "title": "Catalyst",
+        "description": "A project to boost renewable energy use.",
+        "startDate": "2023-03-05T00:00:00Z",
+        "deadline": "2024-03-05T00:00:00Z"
+    },
+    {
+        "id": 4,
+        "title": "Delta",
+        "description": "Delta project for new software development techniques.",
+        "startDate": "2023-01-20T00:00:00Z",
+        "deadline": "2023-09-20T00:00:00Z"
+    },
+    {
+        "id": 5,
+        "title": "Echo",
+        "description": "Echo project focused on AI advancements.",
+        "startDate": "2023-04-15T00:00:00Z",
+        "deadline": "2023-11-30T00:00:00Z"
+    },
+    {
+        "id": 6,
+        "title": "Foxtrot",
+        "description": "Exploring cutting-edge biotechnology.",
+        "startDate": "2023-02-25T00:00:00Z",
+        "deadline": "2023-08-25T00:00:00Z"
+    },
+    {
+        "id": 7,
+        "title": "Golf",
+        "description": "Development of new golf equipment using AI.",
+        "startDate": "2023-05-10T00:00:00Z",
+        "deadline": "2023-12-10T00:00:00Z"
+    },
+    {
+        "id": 8,
+        "title": "Hotel",
+        "description": "Hotel management system overhaul.",
+        "startDate": "2023-03-01T00:00:00Z",
+        "deadline": "2024-01-01T00:00:00Z"
+    },
+    {
+        "id": 9,
+        "title": "India",
+        "description": "Telecommunication infrastructure upgrade.",
+        "startDate": "2023-06-01T00:00:00Z",
+        "deadline": "2023-12-01T00:00:00Z"
+    },
+    {
+        "id": 10,
+        "title": "Juliet",
+        "description": "Initiative to enhance cyber-security measures.",
+        "startDate": "2023-07-01T00:00:00Z",
+        "deadline": "2024-02-01T00:00:00Z"
+    }
+]

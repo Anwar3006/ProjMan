@@ -3,11 +3,13 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+
+use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
     use HasFactory, Notifiable;
 
@@ -43,5 +45,36 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+
+    // Relationship with tasks through task_assignments pivot table
+    public function tasks()
+    {
+        return $this->belongsToMany(Task::class, 'task_assignments');
+    }
+
+    // Relationship with projects through project_team pivot table
+    public function projects()
+    {
+        return $this->belongsToMany(Project::class, 'project_team');
+    }
+
+    // Relationship with teams through team_members pivot table
+    public function teams()
+    {
+        return $this->belongsToMany(Team::class, 'team_members');
+    }
+
+    // Relationship with attachments through Attachments table
+    public function attachments()
+    {
+        return $this->hasMany(Attachment::class);
+    }
+
+    // Relationship with comments through comments table
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
     }
 }
